@@ -64,6 +64,6 @@ function displayResult(result) {
 }
 function playSound(fileName) {
     console.log("hi");
-    var sound = new Audio('/sounds/' + fileName + '.mp3');
+    var sound = new Audio('sounds/' + fileName + '.mp3');
     sound.play();
 }
