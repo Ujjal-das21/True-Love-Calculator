@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+      /* ff 3.6+ */
+      
+    background:-moz-radial-gradient(circle at 50% 50%, rgba(249, 72, 146, 1) 0%, rgba(255, 161, 201, 1) 50%, rgba(230, 9, 101, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, rgba(249, 72, 146, 1) 0%, rgba(255, 161, 201, 1) 50%, rgba(230, 9, 101, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, rgba(249, 72, 146, 1) 0%, rgba(255, 161, 201, 1) 50%, rgba(230, 9, 101, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, rgba(249, 72, 146, 1) 0%, rgba(255, 161, 201, 1) 50%, rgba(230, 9, 101, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, rgba(249, 72, 146, 1) 0%, rgba(255, 161, 201, 1) 50%, rgba(230, 9, 101, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+ .container-sm{
+    text-align: center;
+   }
+ .main-heading{
+ 
+    font-family: 'Roboto', sans-serif;
+    color: #FBE5E5;
+    font-weight: bold;
+    font-size: 3.25rem;
+    line-height: 4rem;
+    word-spacing: 3px;
+ }
+ .second-heading{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;   
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+ }
+ .paragraph{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+  
+
+ }
+
+   /* Header Section */
+#header{
+    text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+/* Body Section */
+#body{
+
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.input-label{
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 1.5rem;
+        color: #E60965;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+        padding: 7px 8px 7px 8px;
+
+}
+.button-click{
+    margin-top: 2rem;
+    background:none;
+    color: #FBE5E5;
+    font-weight: 400;
+    padding: 8px 30px 8px 30px;
+}
+.form-control{
+    text-align: center;
+}
+.result{
+
+}
+.hidden-items{
+    display: none;
+}
